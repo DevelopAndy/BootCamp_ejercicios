@@ -20,5 +20,10 @@ public class Ejercicio_2 {
 			numeroWhile++;
 			System.out.println(numeroWhile);
 		}
+		
+		do {
+			numeroWhile++;
+			System.out.println(numeroWhile);
+		} while (numeroWhile < 3);
 	}
 }
