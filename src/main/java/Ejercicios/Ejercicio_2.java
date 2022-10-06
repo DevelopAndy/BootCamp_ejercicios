@@ -31,6 +31,26 @@ public class Ejercicio_2 {
 		for (numeroFor=0; numeroFor <= 3; numeroFor++) {
 			System.out.println(numeroFor);
 		}
+		
+		String estacion = "otoño";
+		
+		switch (estacion) {
+		case "invierno":
+			System.out.println("Estamos en invierno");
+			break;
+		case "verano":
+			System.out.println("Estamos en verano");
+			break;
+		case "otoño":
+			System.out.println("Estamos en otoño");
+			break;
+		case "primavera":
+			System.out.println("Estamos en primavera");
+			break;
+		default:
+			System.out.println("No es una estación");
+			break;
+		}
 	}
 	
 
