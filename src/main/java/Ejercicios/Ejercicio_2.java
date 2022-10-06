@@ -25,5 +25,13 @@ public class Ejercicio_2 {
 			numeroWhile++;
 			System.out.println(numeroWhile);
 		} while (numeroWhile < 3);
+		
+		int numeroFor;
+		
+		for (numeroFor=0; numeroFor <= 3; numeroFor++) {
+			System.out.println(numeroFor);
+		}
 	}
+	
+
 }
