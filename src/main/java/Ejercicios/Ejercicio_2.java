@@ -14,6 +14,8 @@ public class Ejercicio_2 {
 			System.out.println("El numero es 0");
 		}
 		
+		// --------------------------------------------------------------------------------
+		
 		int numeroWhile = 0;
 		
 		while (numeroWhile < 3) {
@@ -21,16 +23,22 @@ public class Ejercicio_2 {
 			System.out.println(numeroWhile);
 		}
 		
+		// --------------------------------------------------------------------------------
+		
 		do {
 			numeroWhile++;
 			System.out.println(numeroWhile);
 		} while (numeroWhile < 3);
+		
+		// --------------------------------------------------------------------------------
 		
 		int numeroFor;
 		
 		for (numeroFor=0; numeroFor <= 3; numeroFor++) {
 			System.out.println(numeroFor);
 		}
+		
+		// --------------------------------------------------------------------------------
 		
 		String estacion = "otoño";
 		
