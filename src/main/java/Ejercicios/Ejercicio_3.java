@@ -15,6 +15,8 @@ public class Ejercicio_3 {
 		persona1.setEdad(20);
 		persona1.setNombre("Pedro");
 		persona1.setTelefono("123321345");
+		
+		System.out.println(persona1.getNombre() + " tiene " + persona1.getEdad() + " años y su telefono es: " + persona1.getTelefono());
 	}
 }
 
