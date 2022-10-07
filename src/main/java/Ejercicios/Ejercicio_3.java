@@ -11,7 +11,10 @@ Utiliza los gets y sets para darle valores a las propiedades edad, nombre y tele
 public class Ejercicio_3 {
 	
 	public static void main(String[] args) {
-		Persona pedro = new Persona();
+		Persona persona1 = new Persona();
+		persona1.setEdad(20);
+		persona1.setNombre("Pedro");
+		persona1.setTelefono("123321345");
 	}
 }
 
