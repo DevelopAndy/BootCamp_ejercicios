@@ -9,7 +9,10 @@ Utiliza los gets y sets para darle valores a las propiedades edad, nombre y tele
   */
 
 public class Ejercicio_3 {
-
+	
+	public static void main(String[] args) {
+		Persona pedro = new Persona();
+	}
 }
 
 class Persona {
