@@ -26,3 +26,16 @@ class Cliente extends Persona {
 		return credito;
 	}
 }
+
+class Trabajador extends Persona {
+	
+	private float salario;
+	
+	public void setSalario(float salario) {
+		this.salario = salario;
+	}
+	
+	public float getSalario() {
+		return salario;
+	}
+}
