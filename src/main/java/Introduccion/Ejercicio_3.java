@@ -1,4 +1,4 @@
-package Ejercicios;
+package Introduccion;
 
 /*
 Crear clase Persona.

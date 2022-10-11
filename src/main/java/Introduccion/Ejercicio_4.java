@@ -1,4 +1,4 @@
-package Ejercicios;
+package Introduccion;
 
 /*
  Crea una clase Persona con las siguientes variables:
