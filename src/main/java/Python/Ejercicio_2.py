@@ -2,3 +2,6 @@
 
 a = "Hola Mundo"
 print(a)
+
+a = "Modificando variable"
+print(a)
