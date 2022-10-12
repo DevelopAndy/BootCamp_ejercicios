@@ -9,3 +9,5 @@ estatura = float(input("Digite su estatura en metros: "))
 IMC = peso / estatura
 
 imcRound = round(IMC, 2)
+
+print("Tu índice de masa corporal es: " + str(imcRound))
