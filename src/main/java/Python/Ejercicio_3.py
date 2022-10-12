@@ -7,3 +7,5 @@ peso = float(input("Digite su peso en kg: "))
 estatura = float(input("Digite su estatura en metros: "))
 
 IMC = peso / estatura
+
+imcRound = round(IMC, 2)
