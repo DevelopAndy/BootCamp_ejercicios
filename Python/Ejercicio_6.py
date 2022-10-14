@@ -8,10 +8,7 @@
 # Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
 
 class Vehiculo:
-    
-    def __init__(self, color, ruedas, puertas):
-        self.color = color
-        self.ruedas = ruedas
-        self.puertas = puertas
-    
-    
+
+    color = ""
+    ruedas = 4
+    puertas = 5
