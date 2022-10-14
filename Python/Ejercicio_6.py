@@ -12,3 +12,8 @@ class Vehiculo:
     color = ""
     ruedas = 4
     puertas = 5
+    
+class Coche(Vehiculo):
+    
+    velocidad = 50
+    cilindrada = 80
