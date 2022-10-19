@@ -4,4 +4,16 @@
 
 # En el caso de que sean más de las 7, se mostrará un mensaje y en caso contrario, haréis 
 # una operación para calcular el tiempo que queda de trabajo.
+
+import time
+
+horaActual =int(time.strftime('%H', time.localtime()))
+minutoActual =int(time.strftime('%M', time.localtime()))
+
+if horaActual >= 19:
+    print("Es hora de ir a casa")
+else:
+    horasFaltantes = 18 - horaActual
+    minutosFaltantes = 60  - minutoActual
+    print(f"faltan {horasFaltantes} horas, con {minutosFaltantes} minutos")
     
