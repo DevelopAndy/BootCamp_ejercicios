@@ -1,0 +1,8 @@
+.btn {
+	width: 200px;
+	height: 200px;
+}
+
+.btn::before {
+	content: 'Pasa por encima';
+}
