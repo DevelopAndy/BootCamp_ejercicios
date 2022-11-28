@@ -1,0 +1,10 @@
+.img {
+	width: 300px;
+}
+
+.imagenes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 15px;
+}
