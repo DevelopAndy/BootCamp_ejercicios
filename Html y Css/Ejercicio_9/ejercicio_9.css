@@ -12,6 +12,7 @@ body {
 	padding: 10px 30px;
 	border: none;
 	border-bottom: 2px solid darkgreen;
+	border-radius: 5px;
 	cursor: pointer;
 	transition: all 0.4s;
 }
