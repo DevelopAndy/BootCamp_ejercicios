@@ -5,10 +5,20 @@ body {
 	align-items: center;
 }
 
-button {
+.btn-modern {
 	background-color: green;
-	color: white;
-	padding: 10px 20px;
+	color: rgb(238, 238, 238);
+	font-weight: 600;
+	padding: 10px 30px;
 	border: none;
 	border-bottom: 2px solid darkgreen;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.btn-modern:hover {
+	transform: translateY(-5px);
+	box-shadow: 2px 2px 2px black;
+	background-color: rgb(0, 98, 0);
+	color: white;
 }
