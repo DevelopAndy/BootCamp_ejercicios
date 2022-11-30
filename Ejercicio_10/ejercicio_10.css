@@ -1,0 +1,40 @@
+body {
+	display: flex;
+}
+
+.barra-izquierda {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+	padding: 1rem;
+	gap: 0.5rem;
+}
+
+.barra-derecha {
+	border: 1px solid black;
+	margin: 1rem;
+	padding: 1rem;
+	flex-grow: 1;
+}
+
+.elemento {
+	background-color: aqua;
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		flex-direction: column-reverse;
+	}
+
+	.barra-izquierda {
+		border: none;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.barra-derecha {
+		height: 50vh;
+		margin-bottom: 0px;
+	}
+}
