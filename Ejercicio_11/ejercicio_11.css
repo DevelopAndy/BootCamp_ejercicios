@@ -1,0 +1,28 @@
+.row div {
+	margin: 0.25rem;
+}
+
+.col {
+	background-color: black;
+	color: white;
+}
+
+.col-sm {
+	background-color: aqua;
+}
+
+.col-md {
+	background-color: bisque;
+}
+
+.col-lg {
+	background-color: blue;
+}
+
+.col-xl {
+	background-color: blueviolet;
+}
+
+.col-xxl {
+	background-color: brown;
+}
