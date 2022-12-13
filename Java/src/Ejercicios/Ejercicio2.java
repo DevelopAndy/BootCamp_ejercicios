@@ -9,7 +9,6 @@ public class Ejercicio2 {
 
         double price1 = getPrice(100);
         System.out.println(price1);
-
     }
 
     static double getPrice(double price) {
