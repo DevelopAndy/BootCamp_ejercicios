@@ -1,5 +1,7 @@
 package Ejercicios.Ejercicio6;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Vector;
 
 public class Main {
@@ -31,7 +33,7 @@ public class Main {
         3er elemento y muestra el resultado final.
          */
 
-        Vector<Integer> numeros = new Vector();
+        Vector<Integer> numeros = new Vector<>();
         numeros.add(1);
         numeros.add(2);
         numeros.add(3);
@@ -51,14 +53,35 @@ public class Main {
          Mucho consumo de memoria ya que puede que esté consumiendo espacios sin utilizar
          */
 
+        /* Crea un ArrayList de tipo String, con 4 elementos. Cópialo en una LinkedList. Recorre ambos
+        mostrando únicamente el valor de cada elemento.
+         */
+
+        ArrayList<String> elementos = new ArrayList<>();
+        elementos.add("primero");
+        elementos.add("segundo");
+        elementos.add("tercero");
+        elementos.add("cuarto");
+
+        LinkedList<String> copiaArray = new LinkedList<>(elementos);
+
+        for(String elemento:elementos) {
+            System.out.println(elemento);
+        }
+
+        for(String copia:copiaArray) {
+            System.out.println(copia);
+        }
+
     }
 
     public static String reverse(String texto) {
-     String nuevoTextoInvertido = "";
+     StringBuilder nuevoTextoInvertido = new StringBuilder();
+     String resultado = nuevoTextoInvertido.toString();
 
      for(int i=(texto.length())-1; i>=0; i--) {
-         nuevoTextoInvertido += texto.charAt(i);
+         nuevoTextoInvertido.append(i);
      }
-     return nuevoTextoInvertido;
+     return resultado;
     }
 }
