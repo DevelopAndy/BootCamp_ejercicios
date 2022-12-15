@@ -43,6 +43,14 @@ public class Main {
 
         System.out.println(numeros);
 
+        /* Indica cuál es el problema de utilizar un Vector con la capacidad por defecto si tuviésemos
+        1000 elementos para ser añadidos al mismo.
+
+        Respuesta: Que puedo consumir mucha memoria si no defino una capacidad y me paso de los mil
+         elementos, ya que el array se está copiando para poder meter esos otros elementos...
+         Mucho consumo de memoria ya que puede que esté consumiendo espacios sin utilizar
+         */
+
     }
 
     public static String reverse(String texto) {
