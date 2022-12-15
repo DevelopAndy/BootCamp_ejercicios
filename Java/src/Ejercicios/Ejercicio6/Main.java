@@ -1,5 +1,7 @@
 package Ejercicios.Ejercicio6;
 
+import java.util.Vector;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,6 +26,22 @@ public class Main {
         for(int i=0; i<enteros.length; i++) {
             System.out.println("La posición es: " + i + " y el valor es: " + enteros[i]);
         }
+
+        /* Crea un "Vector" del tipo de dato que prefieras, y añádele 5 elementos. Elimina el 2o y
+        3er elemento y muestra el resultado final.
+         */
+
+        Vector<Integer> numeros = new Vector();
+        numeros.add(1);
+        numeros.add(2);
+        numeros.add(3);
+        numeros.add(4);
+        numeros.add(5);
+
+        numeros.remove(1);
+        numeros.remove(1);
+
+        System.out.println(numeros);
 
     }
 
