@@ -102,6 +102,31 @@ public class Main {
             System.out.println(num.get(i));
         }
 
+        /* Crea una función DividePorCero. Esta, debe generar una excepción ("throws") a su llamante del
+        tipo ArithmeticException que será capturada por su llamante (desde "main", por ejemplo). Si se dispara
+        la excepción, mostraremos el mensaje "Esto no puede hacerse". Finalmente, mostraremos en cualquier caso:
+        "Demo de código".
+         */
+
+        try {
+            dividePorCero(5);
+        }
+        catch (Exception e) {
+            System.out.println("Esto no puede hacerse");
+        }
+
+    }
+
+    public static void dividePorCero(int a) throws ArithmeticException {
+        try {
+            int div = a / 0;
+        }
+        catch (ArithmeticException e){
+            throw new ArithmeticException();
+        }
+        finally {
+            System.out.println("Demo de código");
+        }
     }
 
     public static String reverse(String texto) {
