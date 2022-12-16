@@ -23,10 +23,20 @@ public class Main {
         /*Crea un array bidimensional de enteros y recórrelo, mostrando la posición y el valor de
         cada elemento en ambas dimensiones
          */
-        int enteros[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int enteros[][] = {
+                {1, 2, 3, 4, 5,},
+                {6, 7, 8, 9, 10}
+        };
 
         for(int i=0; i<enteros.length; i++) {
-            System.out.println("La posición es: " + i + " y el valor es: " + enteros[i]);
+            StringBuilder text = new StringBuilder();
+            StringBuilder fila = new StringBuilder();
+            fila.append(i+1);
+            text.append("La fila es: " + fila + " y el valor de cada columna es: ");
+            for(int j=0; j<enteros[1].length; j++) {
+                text.append(enteros[i][j] + ", ");
+            }
+            System.out.println(text);
         }
 
         /* Crea un "Vector" del tipo de dato que prefieras, y añádele 5 elementos. Elimina el 2o y
@@ -91,8 +101,6 @@ public class Main {
             }
             System.out.println(num.get(i));
         }
-
-
 
     }
 
