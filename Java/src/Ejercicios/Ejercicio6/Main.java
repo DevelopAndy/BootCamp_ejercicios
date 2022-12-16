@@ -1,5 +1,6 @@
 package Ejercicios.Ejercicio6;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
@@ -115,6 +116,32 @@ public class Main {
             System.out.println("Esto no puede hacerse");
         }
 
+        /* Utilizando InputStream y PrintStream, crea una función que reciba dos parámetros: "fileIn" y "fileOut".
+         La tarea de la función será realizar la copia del fichero dado en el parámetro "fileIn" al fichero dado en
+         "fileOut".
+         */
+
+        copiaFichero("C:\\1.png", "src/Ejercicios/Ejercicio6/copia.png");
+
+    }
+
+    public static void copiaFichero(String fileIn, String fileOut) {
+        try {
+            InputStream fichero = new FileInputStream(fileIn);
+
+            PrintStream copia = new PrintStream(fileOut);
+
+            try {
+                byte[] datos = fichero.readAllBytes();
+
+                copia.write(datos);
+
+            } catch (IOException e) {
+                System.out.println("No he podido leer el fichero " + e.getMessage());;
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Error " + e.getMessage());
+        }
     }
 
     public static void dividePorCero(int a) throws ArithmeticException {
