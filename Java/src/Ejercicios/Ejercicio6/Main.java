@@ -73,6 +73,27 @@ public class Main {
             System.out.println(copia);
         }
 
+        /* Crea un ArrayList de tipo int, y, utilizando un bucle rellénalo con elementos 1..10. A continuación,
+        con otro bucle, recórrelo y elimina los numeros pares. Por último, vuelve a recorrerlo y muestra el
+        ArrayList final. Si te atreves, puedes hacerlo en menos pasos, siempre y cuando cumplas el primer "for"
+        de relleno.
+         */
+
+        ArrayList<Integer> num = new ArrayList<>();
+
+        for(int i=1; i<11; i++) {
+            num.add(i);
+        }
+
+        for(int i=0; i<num.size()-1; i++) {
+            if(num.get(i) % 2 == 0) {
+                num.remove(i);
+            }
+            System.out.println(num.get(i));
+        }
+
+
+
     }
 
     public static String reverse(String texto) {
