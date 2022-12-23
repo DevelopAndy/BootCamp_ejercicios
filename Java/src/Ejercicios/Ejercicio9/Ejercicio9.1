@@ -1,0 +1,45 @@
+Identifica las características principales de los patrones de diseño más conocidos,
+indica para qué valen y un caso de uso para cada uno de ellos.
+
+Existen tres clases de patrones:
+
+Creacionales, estructurales y de comportamiento
+
+Los creacionales proporcionan diversos mecanismos de creación de objetos, que aumentan la flexibilidad y
+la reutilización del código existente de una manera adecuada a la situación.
+
+Los estructurales facilitan soluciones y estándares eficientes con respecto a las composiciones de clase
+y estructuras de objetos
+
+Los de comportamiento se ocupan de la comunicación entre objetos de clase.
+
+Los patrones creacionales más conocidos son:
+
+Singleton - Restringe la creación de instancias de una clase a un único objeto.
+          - Un caso de uso sería una aplicación que muestre la hora. Una sola instancia que muestre
+            la hora
+
+Builder   - Permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de
+            construction.
+          - Un caso de uso sería una aplicación de correo
+
+Factory   - Proporciona una interfaz para crear objetos en una superclase, pero permite que las subclases
+            alteren el tipo de objetos que se crearán.
+          - Un caso de uso sería una aplicación que emita factura y cobre IVA
+
+Prototype - Permite copiar objetos existentes sin hacer que su código dependa de sus clases.
+          - Un caso de uso sería una aplicación con código pasado por terceras personas a través de una
+            interfaz
+
+Los patrones estructurales más conocidos son:
+
+Decorador - Añade una funcionalidad a una clase ya existente sin modificar esa clase
+          - Un caso de uso sería un teléfono donde se crean nuevos teléfonos con más características
+
+Adapter   - Crea una clase que permite que clases con la misma y diferente implementación funcionen
+            coherentemente
+          - Un caso práctico son aquellas aplicaciones creadas por otros programadores y quizás su
+            librería no se puede modificar
+
+Facade    - Oculta la complejidad, poniendo adelante lo sencillo
+          - Un caso de uso sería un conversor de vídeo creado por otros programadores
