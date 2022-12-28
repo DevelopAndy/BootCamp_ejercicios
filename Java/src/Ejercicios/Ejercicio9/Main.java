@@ -5,8 +5,7 @@ public class Main {
 
         Ejercicio9 singleton = Ejercicio9.getInstance();
 
-        Ejercicio9 singleton2 = Ejercicio9.getInstance();
-        singleton2.setContador(20);
+        Ejercicio9 singleton2 = Ejercicio9.getInstance()
 
         System.out.println(singleton.getContador() +" "+ singleton);
         System.out.println(singleton2.getContador() +" "+ singleton2);
