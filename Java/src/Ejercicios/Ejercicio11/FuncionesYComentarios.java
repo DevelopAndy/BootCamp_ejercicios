@@ -6,6 +6,20 @@ public class FuncionesYComentarios {
 
     public static void main(String[] args) {
 
+        int suma = sumarNumeros(1,2,3,4,5);
+
+        // Lista de nombres
+        ArrayList<String> nombres = new ArrayList<>();
+        nombres.add("Andy");
+        nombres.add("Sofia");
+        nombres.add("Vanesa");
+        nombres.add("Rodrigo");
+
+        System.out.println(suma);
+
+        System.out.println(existeNombre(nombres, "Andy"));
+        System.out.println(existeNombre(nombres, "Alfons"));
+
     }
 
     public static int sumarNumeros(int ...numeros) {
