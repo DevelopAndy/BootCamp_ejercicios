@@ -7,4 +7,14 @@ public class FuncionesYComentarios {
     public static void main(String[] args) {
 
     }
+
+    public static int sumarNumeros(int ...numeros) {
+        int resultado = 0;
+
+        for ( int numero:numeros) {
+            resultado += numero;
+        }
+
+        return resultado;
+    }
 }
