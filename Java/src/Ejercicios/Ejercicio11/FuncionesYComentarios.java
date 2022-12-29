@@ -17,4 +17,8 @@ public class FuncionesYComentarios {
 
         return resultado;
     }
+
+    public static boolean existeNombre(ArrayList nombres, String nombreABuscar) {
+        return nombres.contains(nombreABuscar);
+    }
 }
