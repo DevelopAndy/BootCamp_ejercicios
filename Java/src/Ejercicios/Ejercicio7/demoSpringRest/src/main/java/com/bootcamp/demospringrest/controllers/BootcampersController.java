@@ -1,3 +1,4 @@
+/*
 package com.bootcamp.demospringrest.controllers;
 
 
@@ -49,3 +50,5 @@ public class BootcampersController {
         return Response.created(URI.create("/bootcampers" + bootcamper.getNombre())).build();
     }
 }
+
+ */

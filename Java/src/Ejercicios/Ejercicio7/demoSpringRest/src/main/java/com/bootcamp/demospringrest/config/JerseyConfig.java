@@ -1,4 +1,4 @@
-package com.bootcamp.demospringrest.config;
+/*package com.bootcamp.demospringrest.config;
 
 import jakarta.ws.rs.ApplicationPath;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -11,3 +11,5 @@ public class JerseyConfig extends ResourceConfig {
         this.packages("com.bootcamp.demospringrest.controllers");
     }
 }
+
+ */

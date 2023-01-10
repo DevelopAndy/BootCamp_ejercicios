@@ -1,4 +1,4 @@
-package com.bootcamp.demospringrest.services;
+/*package com.bootcamp.demospringrest.services;
 
 import com.bootcamp.demospringrest.models.Bootcamper;
 import org.springframework.stereotype.Service;
@@ -27,3 +27,5 @@ public class BootcamperService {
         return null;
     }
 }
+
+ */
