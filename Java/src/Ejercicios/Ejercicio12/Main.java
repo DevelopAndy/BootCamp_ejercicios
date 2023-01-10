@@ -1,5 +1,8 @@
 package Ejercicios.Ejercicio12;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class Main {
@@ -30,6 +33,12 @@ public class Main {
         }
         catch (IndexOutOfBoundsException e) {
             System.out.println("El array tiene menos elementos " + e.getMessage());
+        }
+
+        try {
+            InputStream fichero = new FileInputStream("/etc/noExiste");
+        } catch (FileNotFoundException e) {
+            System.out.println("hubo un error " + e.getMessage());
         }
     }
 }
