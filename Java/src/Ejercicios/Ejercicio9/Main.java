@@ -2,10 +2,11 @@ package Ejercicios.Ejercicio9;
 
 public class Main {
     public static void main(String[] args) {
-        Ejercicio9 ej1 = Ejercicio9.getInstance();
-        Ejercicio9 ej2 = Ejercicio9.getInstance();
 
-        System.out.println(ej1);
-        System.out.println(ej2);
+        Ejercicio9 singleton = Ejercicio9.getInstance();
+        Ejercicio9 singleton2 = Ejercicio9.getInstance();
+
+        System.out.println(singleton.getContador() +" "+ singleton);
+        System.out.println(singleton2.getContador() +" "+ singleton2);
     }
 }

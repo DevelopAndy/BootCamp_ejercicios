@@ -1,4 +1,4 @@
-package com.bootcamp.demospringrest.controllers;
+/*package com.bootcamp.demospringrest.controllers;
 
 
 import com.bootcamp.demospringrest.models.Bootcamper;
@@ -48,4 +48,4 @@ public class BootcampersController {
 
         return Response.created(URI.create("/bootcampers" + bootcamper.getNombre())).build();
     }
-}
+}*/

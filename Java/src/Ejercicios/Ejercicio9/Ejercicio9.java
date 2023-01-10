@@ -3,7 +3,6 @@ package Ejercicios.Ejercicio9;
 public class Ejercicio9 {
     private static Ejercicio9 ejercicio9;
     int contador;
-
     private Ejercicio9() {
 
     }
