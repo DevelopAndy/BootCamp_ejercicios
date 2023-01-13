@@ -1,9 +1,23 @@
 package Ejercicios.Ejercicio14;
 
-public interface Coche {
-    void acelerar();
+abstract class Coche {
 
-    void frenar();
+    int velocidad;
+    String tipo;
 
-    String tipo();
+    void acelerar() {
+        velocidad++;
+    }
+
+    void frenar() {
+        velocidad--;
+    }
+
+    public int getVelocidad() {
+        return velocidad;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
 }
