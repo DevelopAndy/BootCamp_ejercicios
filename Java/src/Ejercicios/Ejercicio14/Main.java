@@ -3,8 +3,10 @@ package Ejercicios.Ejercicio14;
 public class Main {
 
     public static void main(String[] args) {
-        Vehiculo moto = new Vehiculo(50, "moto");
-        VehiculoElectrico carro = new VehiculoElectrico(80, "carro", true);
+        Coche moto = new Vehiculo(50, "moto");
+        Coche carro = new VehiculoElectrico(80, "carro", true);
+
+        System.out.println("\n Moto:\n");
 
         System.out.println(moto.getTipo());
         System.out.println(moto.getVelocidad());

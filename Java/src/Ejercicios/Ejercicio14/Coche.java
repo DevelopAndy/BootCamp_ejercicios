@@ -5,6 +5,8 @@ abstract class Coche {
     int velocidad;
     String tipo;
 
+    Boolean baterias;
+
     void acelerar() {
         velocidad++;
     }
@@ -19,5 +21,9 @@ abstract class Coche {
 
     public String getTipo() {
         return tipo;
+    }
+
+    public Boolean getBaterias() {
+        return baterias;
     }
 }
