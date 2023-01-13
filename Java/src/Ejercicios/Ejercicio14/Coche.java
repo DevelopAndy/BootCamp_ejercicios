@@ -1,18 +1,10 @@
 package Ejercicios.Ejercicio14;
 
-public class Coche {
+public interface Coche {
 
-    private int velocidad;
+    void acelerar();
 
-    public void acelerar() {
-        velocidad++;
-    }
+    void frenar();
 
-    public void frenar() {
-        velocidad--;
-    }
-
-    public int getVelocidad() {
-        return velocidad;
-    }
+    int getVelocidad();
 }
