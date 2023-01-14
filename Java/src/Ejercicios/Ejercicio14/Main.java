@@ -15,8 +15,11 @@ public class Main {
         System.out.println(carro.getVelocidad());
         System.out.println(carro.getBaterias());
 
-        DbMySQL db = new DbMySQL();
-        guardarEnBaseDeDatos(db, moto);
+        DbMySQL db1 = new DbMySQL();
+        guardarEnBaseDeDatos(db1, moto);
+
+        DbSQLite db2 = new DbSQLite();
+        guardarEnBaseDeDatos(db2, moto);
 
     }
 
