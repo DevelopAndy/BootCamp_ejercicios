@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicio14;
+package Ejercicios.Ejercicio14_15;
 
 public class DbMySQL implements DbStore{
     @Override

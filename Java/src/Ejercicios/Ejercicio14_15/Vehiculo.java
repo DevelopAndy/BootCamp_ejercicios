@@ -1,20 +1,13 @@
-package Ejercicios.Ejercicio14;
+package Ejercicios.Ejercicio14_15;
 
-public class VehiculoElectrico implements Coche, CocheElectrico{
+public class Vehiculo implements Coche{
 
     private int velocidad;
     private String tipo;
-    private Boolean baterias;
 
-    public VehiculoElectrico(int velocidad, String tipo, Boolean baterias) {
+    public Vehiculo(int velocidad, String tipo) {
         this.velocidad = velocidad;
         this.tipo = tipo;
-        this.baterias = baterias;
-    }
-
-    @Override
-    public Boolean getBaterias() {
-        return baterias;
     }
 
     @Override
