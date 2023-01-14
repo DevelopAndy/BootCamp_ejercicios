@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Coche moto = new Vehiculo(50, "moto");
-        Coche carro = new VehiculoElectrico(80, "carro", true);
+        VehiculoElectrico carro = new VehiculoElectrico(80, "carro", true);
 
         System.out.println("\n Moto:\n");
         System.out.println(moto.getTipo());
