@@ -1,29 +1,11 @@
 package Ejercicios.Ejercicio14;
 
-abstract class Coche {
+public interface Coche {
 
-    int velocidad;
-    String tipo;
+    void acelerar();
+    void frenar();
 
-    Boolean baterias;
+    public int getVelocidad();
 
-    void acelerar() {
-        velocidad++;
-    }
-
-    void frenar() {
-        velocidad--;
-    }
-
-    public int getVelocidad() {
-        return velocidad;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public Boolean getBaterias() {
-        return baterias;
-    }
+    public String getTipo();
 }
